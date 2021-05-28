@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>Demo Jquery y JqueryUI</title>
+    <title>Taller Jquery y JqueryUI</title>
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <!--link rel="stylesheet" href="estilos/estilos.css" type="text/css" /-->
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
@@ -11,7 +11,7 @@
   </head>
   <body>
     
-      <h3>Ejemplo de Uso de Jquery + CouchDB</h3>
+      <h3>Uso de Jquery + CouchDB</h3>
       <div class="ui-widget">
         <label for="tags">Jugadores: </label>
         <input id="tags">
@@ -23,7 +23,7 @@
       // $( "button" ).click(function() {
       $.ajax({
             dataType: 'json',
-            url: "http://127.0.0.1:5984/mundial2018/_all_docs?include_docs=True"
+            url: "http://127.0.0.1:5984/mundial2018/_all_docs?include_docs=true"
             }).then(function(data) {
               var cadena = '';
               var lista = [];
